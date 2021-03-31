@@ -38,7 +38,7 @@
     - [Vérification - Étape 13](#v%c3%a9rification---%c3%89tape-13)
   - [Étape 14 - Passions](#%c3%89tape-14---passions)
     - [Vérification - Étape 14](#v%c3%a9rification---%c3%89tape-14)
-  - [Étape 15 - Bas de page](#%c3%89tape-15---bas-de-page)
+<>  - [Étape 15 - Bas de page](#%c3%89tape-15---bas-de-page)
     - [Vérification - Étape 15](#v%c3%a9rification---%c3%89tape-15)
   - [Étape 16 - Style du bas de page](#%c3%89tape-16---style-du-bas-de-page)
     - [Vérification - Étape 16](#v%c3%a9rification---%c3%89tape-16)

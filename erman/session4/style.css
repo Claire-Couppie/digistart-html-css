@@ -1,4 +1,4 @@
-*
+/*
 Écrire une règle pour que l'élément `<body>` ait des marges extérieures (`margin`) de `0` pixel.
 */
 body {
@@ -12,6 +12,7 @@ body {
 section {
   padding: 30px;
 }
+
 
 /*
 Écrire une règle pour que les éléments `<h3>` soient alignés horizontalement avec le centre du document, voir l'attribut "text-align".
@@ -47,7 +48,7 @@ nav ul {
     display: flex;    	
 }
 
-<!--ici je dois ecrire dans html class="box" pour nav et ul-->
+/*<!--ici je dois ecrire dans html class="box" pour nav et ul-->
 
 /*
 - Écrire les règles suivantes pour les éléments `<li>` enfants de l'élément `<nav>`:
@@ -91,8 +92,8 @@ img {
 /*
 Écrire une règle pour que les sections titrées "Ville" et "Grands espaces" aient une couleur de fond égale à `rgb(4, 117, 186)`.
 */
-#Ville, #Grands espaces {
-    rgb(4, 117, 186)
+#ville, #espace {
+  background-color: rgb(4, 117, 186)
 }
 
 
@@ -107,10 +108,18 @@ Une façon de centrer les images est de les afficher en block:
 	margin-right: auto;
 */
 
+p, img {
 
+    display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+}
 
 /*
 Écrire les règles nécessaires pour que les ancres dans le `<nav>` changent de couleur et ne soient plus soulignées quand le curseur de la souris passe dessus.
 Rechercher l'attribut "text-decoration"
 */
 
+nav a {
+    text-decoration: none;
+}

@@ -8,6 +8,7 @@
 
 ## Liens vers les étapes
 
+
   - [Étape 1 - Structure HTML de base](#%c3%89tape-1---structure-html-de-base)
     - [Vérification - Étape 1](#v%c3%a9rification---%c3%89tape-1)
   - [Étape 2 - Métadonnées](#%c3%89tape-2---m%c3%a9tadonn%c3%a9es)

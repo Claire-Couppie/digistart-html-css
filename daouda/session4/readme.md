@@ -20,10 +20,12 @@
 
 - Dans l'élément `<head>` de `index.html`, ajouter la balise permettant de relier le fichier CSS "style.css" au document HTML.
 
+
 ### Partie 2
 
 - Écrire une règle pour que l'élément `<body>` ait des marges extérieures (`margin`) de `0` pixel.
 - Écrire une règle pour que les éléments `<section>` aient des marges intérieures (`padding`) de `30` pixels.
+
 
 ### Partie 3
 

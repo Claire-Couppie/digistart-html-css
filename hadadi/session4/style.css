@@ -24,14 +24,21 @@ h3 {
   - Des marges intérieures égales à `0` pixel.
   - Des marges extérieures égales à `20` pixels.
 */
-c'est louche, tu ne m'as pas entendu de tout le cours ? reconnecte toi au google meet
+nav h1 {
+  margin: 0px;
+  padding:20px;
+}
 /*
 - Écrire les règles suivantes pour les éléments `<ul>` à l'intérieur du `<nav>` :
   - Des marges intérieures égales à `20` pixels.
   - Des marges extérieures égales à `0` pixel.
   - Enlever les puces sur chaque ligne avec la propriété `list-style`.
 */
-
+nav ul {
+  margin: 20px;
+  padding: 0px;
+  list-style:none
+}
 
 
 /*
@@ -42,7 +49,9 @@ en ligne malgrés leur affichage de type `block`.
 Écrire une class pour changer l'affichage (`display`) en `flex` et appliquer cette classe
 aux éléments <nav>` et `<ul>` dans la page html.
 */
-
+nav ul {
+  display: flex;
+}
 
 
 /*
@@ -50,13 +59,18 @@ aux éléments <nav>` et `<ul>` dans la page html.
   - Écrire une règle pour ajouter une marge extérieure de `15` pixels **à gauche**
   - Écrire une règle pour ajouter une marge intérieure de `20` pixels
 */
-
+nav li {
+  margin-left: 15px;
+  padding: 20px;
+}
 
 
 /*
 Écrire une règle pour que l'élément <h2> enfant de <nav> aient une marge intérieure de 15px.
 */
-
+nav h2 {
+  margin: 15px;
+}
 
 
 /*
@@ -65,20 +79,27 @@ Essayez de modifier les trois valeurs de `rgb(0, 0, 0)` et constatez les changem
 
 Écrire une règle pour changer la couleur des ancres (éléments `<a>`) en noir (`black` ou `rgb(0, 0, 0)`).
 */
-
+a {
+  color: black;
+}
 
 
 /*
 Écrire une règle pour que les images aient une largeur égale à `300` pixels.
 Écrire une règle pour que les images aient des coins arrondis de `10` pixels avec la propriété `border-radius`.
 */
-
+image {
+  width:300px;
+  border-radius: 10px;
+}
 
 
 /*
 Écrire une règle pour que les sections titrées "Ville" et "Grands espaces" aient une couleur de fond égale à `rgb(4, 117, 186)`.
 */
-
+#ville, #espace {
+  background-color: rgb(4, 117,186);
+}
 
 /*             BONUS !!                   */
 
@@ -89,13 +110,22 @@ Une façon de centrer les images est de les afficher en block:
 	margin-left: auto;
 	margin-right: auto;
 */
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
-
-
+p {
+  text-align: center;
+}
 /*
 Écrire les règles nécessaires pour que les ancres dans le `<nav>` changent de couleur et ne soient plus soulignées quand le curseur de la souris passe dessus.
 Rechercher l'attribut "text-decoration"
 */
 
 
-
+a:hover {
+  color: red;
+  text-decoration: none;
+}
