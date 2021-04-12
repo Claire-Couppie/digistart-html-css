@@ -42,7 +42,7 @@
     - [Vérification - Étape 15](#v%c3%a9rification---%c3%89tape-15)
   - [Étape 16 - Style du bas de page](#%c3%89tape-16---style-du-bas-de-page)
     - [Vérification - Étape 16](#v%c3%a9rification---%c3%89tape-16)
-  - [Étape 17 - Personnalisation du CV](#%c3%89tape-17---personnalisation-du-cv)
+  - [Étacpe 17 - Personnalisation du CV](#%c3%89tape-17---personnalisation-du-cv)
   - [Étape 18 - Publication du CV sur Internet](#%c3%89tape-18---publication-du-cv-sur-internet)
 
 ## Étape 1 - Structure HTML de base

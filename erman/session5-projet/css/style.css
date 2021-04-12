@@ -13,9 +13,9 @@ nav {
     background-color: rgb(4, 117, 186);
 }
 
-a {
+/*a {
     color: white;
-}
+} */
 
 nav h2 {
     margin: 0;
@@ -78,28 +78,88 @@ section {
     padding: 0;
     margin: 0;
   }
-  
-  #education li {
+
+#education li {
     margin-bottom: 10px;
   }
-  
-  #education aside {
+
+#education aside {
     float: right;
   }
 
-  footer {
+footer {
       padding: 40px;
   }
 
-  footer ul {
+footer ul {
     list-style: none;
     padding: 0;
     margin: 0;
+}
 
-  }
-
-  .links {
+.links {
       margin-bottom: 25px;
       width: 390px;
       display: inline-block;
-  }
+}
+
+a:hover {
+    color: yellow;
+}
+
+
+a {
+    color: white;
+    -webkit-transition: color 1.5s ease-out;
+    -moz-transition: color 1.5s ease-out;
+    -o-transition: color 1.5s ease-out;
+    -ms-transition: color 1.5s ease-out;
+    transition: color 1.5s ease-out;
+}
+
+/*
+img {
+    transition: transform .7s ease-in-out;
+}
+
+img:hover {
+    transform: rotate(360deg);
+} */
+
+@-webkit-keyframes rotate {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+img:hover {
+    -webkit-animation-name: rotate;
+    -webkit-animation-duration: 0.8s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+}
+
+header h2 {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: 1s ease-in-out;
+	transition: 1s ease-in-out;
+}
+header h2:hover {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+header h1 {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: 1s ease-in-out;
+	transition: 1s ease-in-out;
+}
+header h1:hover {
+	-webkit-transform: scale(0.8);
+	transform: scale(0.8);
+}

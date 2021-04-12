@@ -15,10 +15,9 @@ a{
     color: white;
 
 }
-nav h2{ 
+nav h2{
     margin: 0px;
     padding: 20px,0px,20px,15px;
-ta
 }
 
 nav ul{
@@ -53,3 +52,44 @@ section{
 
 }
 
+#xp ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  #xp li {
+    margin-bottom: 10px;
+  }
+
+  #xp aside {
+    float: right;
+  }
+  #format ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  #format li {
+    margin-bottom: 10px;
+  }
+
+  #format aside {
+    float: right;
+  }
+footer {
+    margin: 40px;
+
+}
+footer ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+}
+.links{
+      margin-bottom: 25px;
+      width: 390px;
+      display: inline-block;
+    }
