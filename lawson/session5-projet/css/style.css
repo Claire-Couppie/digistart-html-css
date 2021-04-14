@@ -1,42 +1,62 @@
-<img src="camille-martin.png" >
+body {
+  font-family: Arial ;
+  margin: 0px;
+}
+nav {
+display: flex ;
+height: 70;
+}
+
+.secondary-block {
+  background-color:rgb(4, 117, 186) ;
+}
+a {
+  color:white
+}
+nav h2 {
+  margin: 0px ;
+  padding: 20px, 0, 15px, 20px;
+}
+nav ul {
+display: flex;
+margin: 0px ;
+padding: 24px ;
+list-style:none ;
+}
+nav li {
+  margin-left:
+               15px ;
+}
+
+header {
+  text-align: center;
+  padding: 40px;
+}
+.content {
+  max-width : 800px ;
+  margin: 0 auto  ;
+}
+header h2 {
+  color:rgb(4, 117, 186) ;
+}
+header img {
+  width: 150px;
+  border-radius: 75px;
+  box-shadow: 3px 3px 6px rgb(170, 170, 170) ;
+}
 section {
-    padding: 40px;
-  }
-  #xp ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  #xp li {
-    margin-bottom: 10px;
-  }
-  #education ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  #education li {
-    margin-bottom: 10px;
-  }
+padding: 40px ;
+}
+#xp ul {
+  list-style: none;
+  margin: 0 ;
+  padding: 0 ;
+}
+#xp li {
+  margin-bottom: 10 ;
+}
+#xp aside {
+  float: right ;
+}
+footer 
 
-  #education aside {
-    float: right;
-  }
-  #xp aside {
-    float: right;
-  }
-  footer {
-    padding: 40px;
-  }
-
-  footer ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-
-  .links {
-    margin-bottom: 25px;
-    display: inline-block;
-    width: 390px;
-  }

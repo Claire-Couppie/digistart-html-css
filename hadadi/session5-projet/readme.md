@@ -33,7 +33,7 @@
   - [Étape 12 - Style des expériences professionnelles](#%c3%89tape-12---style-des-exp%c3%a9riences-professionnelles)
     - [Vérification - Étape 12](#v%c3%a9rification---%c3%89tape-12)
   - [Étape 13 - Formations](#%c3%89tape-13---formations)
-    - [HTML pour la section _Formations_](#html-pour-la-section-formations)
+i    - [HTML pour la section _Formations_](#html-pour-la-section-formations)
     - [CSS pour la section _Formations_](#css-pour-la-section-formations)
     - [Vérification - Étape 13](#v%c3%a9rification---%c3%89tape-13)
   - [Étape 14 - Passions](#%c3%89tape-14---passions)
@@ -544,6 +544,7 @@ Avant de passer à l'étape suivante, vérifiez que la page ressemble à l'image
 ```
 
 ```css
+
 #education ul {
   list-style: none;
   padding: 0;
@@ -640,7 +641,7 @@ Avant de passer à l'étape suivante, vérifiez que la page ressemble à l'image
 
 Dans le fichier `style.css` :
 
-- Écrire une règle pour l'élément `<footer>` qui lui applique des marges intéreures de `40` pixels.
+- Écrire une règle pour l'élément `<footer>` qui lui appliqulie des marges intéreures de `40` pixels.
 - Écrire les règles suivantes pour les éléments `<ul>` enfants de `<footer>` :
   - Des marges intérieures à `0`.
   - Des marges extérieures à `0`.
@@ -661,6 +662,7 @@ Avant de passer à l'étape suivante, vérifiez que la page ressemble aux images
     <summary>👀 Solution</summary>
 
 ```css
+
 footer {
   padding: 40px;
 }
@@ -706,3 +708,4 @@ Votre page est terminée, il est temps de la publier en ligne.
 - Revenez sur GitHub Desktop, ajoutez le texte `First commit` dans le champ `Summary` et cliquez sur `Commit to master`.
   - Cliquez sur `Publish branch`.
   - Visitez le site `<username>.github.io` avec votre navigateur et partagez le lien avec vos ami.e.s !
+s
